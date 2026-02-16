@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "drex-util"
+version = "0.1.0"
+description = "Drex — shared infrastructure helpers (Kafka, gRPC, config)."
+authors = ["swordenkisk"]
+license = "Proprietary"
+packages = [{include = "drex", from = "src"}]
+
+[tool.poetry.dependencies]
+python          = "^3.11"
+confluent-kafka = "^2.4"
+grpcio          = "^1.63"
+grpcio-tools    = "^1.63"
+pydantic        = "^2.7"
+pydantic-settings = "^2.2"
+
+[build-system]
+requires      = ["poetry-core>=1.8"]
+build-backend = "poetry.core.masonry.api"

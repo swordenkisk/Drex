@@ -85,7 +85,7 @@ drex/
 
 ```bash
 # 1. Clone
-git clone https://github.com/swordenkisk/drex.git && cd drex
+git clone https://github.com/swordenkisk/Drex.git && cd drex
 
 # 2. Copy environment files
 cp .env.example .env
